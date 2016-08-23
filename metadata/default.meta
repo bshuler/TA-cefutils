@@ -1,0 +1,25 @@
+
+# Application-level permissions
+
+[]
+access = read : [ * ], write : [ admin, power ]
+
+[viewstates]
+access = read : [ * ], write : [ * ]
+
+[lookups]
+export = system
+
+[transforms]
+export = system
+
+[props]
+export = system
+
+[commands]
+export = system
+access = read : [ * ], write : [ admin ]
+
+[searchbnf]
+export = system
+
